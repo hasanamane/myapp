@@ -1,16 +1,17 @@
 import React from "react";
-
+import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1>Hasan Amana</h1>
+        <h1>
+          <Link to="/">Hasan Amana</Link>
+        </h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="Html">
-               
-              HTML 
-            </a>
+            <NavLink className="main-link" to="/Html">
+              HTML
+            </NavLink>
             <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -24,10 +25,9 @@ function Header() {
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="/Css">
-               
-              CSS 
-            </a>
+            <NavLink className="main-link" to="/Css">
+              CSS
+            </NavLink>
             <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -52,10 +52,9 @@ function Header() {
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="/Javascript">
-               
-              JavaScript 
-            </a>
+            <NavLink className="main-link" to="/Javascript">
+              JavaScript
+            </NavLink>
             <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
@@ -73,7 +72,7 @@ function Header() {
         <div className="show-on-click">
           <div className="main-div">
             <label htmlFor="html">
-              HTML <i className="fas fa-plus" /> 
+              HTML <i className="fas fa-plus" />
             </label>
             <input id="html" type="checkbox" />
             <ul className="sub-div">
@@ -90,7 +89,7 @@ function Header() {
           </div>
           <div className="main-div">
             <label htmlFor="css">
-              CSS <i className="fas fa-plus" /> 
+              CSS <i className="fas fa-plus" />
             </label>
             <input id="css" type="checkbox" />
             <ul className="sub-div">
@@ -102,7 +101,7 @@ function Header() {
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
-                  mini projects <i className="fas fa-plus" /> 
+                  mini projects <i className="fas fa-plus" />
                 </label>
                 <input id="mini" type="checkbox" />
                 <ul className="sub-sub-div">
@@ -121,7 +120,7 @@ function Header() {
           </div>
           <div className="main-div">
             <label htmlFor="js">
-              JavaScript <i className="fas fa-plus" /> 
+              JavaScript <i className="fas fa-plus" />
             </label>
             <input id="js" type="checkbox" />
             <ul className="sub-div">

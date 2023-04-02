@@ -18,4 +18,4 @@ function App() {
 }
 
 export default App;
-// وصلنا الى  المحاضرة 6
+// وصلنا الى  المحاضرة 7
