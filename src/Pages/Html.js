@@ -1,15 +1,12 @@
 import React from "react";
 import Header from "../component/header";
 import Footer from "../component/Footer";
+import MainContent from "../component/MainContent";
 const Html = () => {
   return (
     <>
-
-     <Header />
-     
-      <main>
-        Html Page
-      </main>
+      <Header />
+      <MainContent main="Html Page" />
       <Footer />
     </>
   );

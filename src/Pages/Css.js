@@ -1,15 +1,13 @@
 import React from "react";
 import Header from "../component/header";
-import Footer from "../component/Footer";
+import Footer from "../component/Footer";import MainContent from "../component/MainContent";
 const Css = ()=>{
     
     return(
         <>
     
     <Header />
-    <main>
-    Css Page
-    </main>
+    <MainContent main="Css Page" />
         <Footer />
     
   </>
